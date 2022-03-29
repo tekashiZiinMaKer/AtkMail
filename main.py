@@ -1,9 +1,4 @@
 #!/usr/bin/python 2.7
-#E-bomber
-#This code for education purpose only.
-#Use it at your own risk !!!
-
-
 
 import os
 import smtplib
@@ -13,7 +8,7 @@ import time
 
 os.system('pkg install figlet')
 os.system('clear')
-
+os.system('figlet MailBomb')
 
 
 print '    '
