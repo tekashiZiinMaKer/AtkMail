@@ -15,17 +15,12 @@ os.system('pkg install figlet')
 os.system('clear')
 os.system('figlet ATK - EMAIL')
 
-print '                                                                   '
-
-
-print '                                           '
-
 print '    '
-email = raw_input('Attacker Gmail Address : ')
+email = raw_input('add your Email: ')
 print '             '
-user = raw_input('Anonymous name : ')
+user = raw_input('your name: ')
 print '      '
-passwd = getpass.getpass('Password: ')
+passwd = getpass.getpass('your password: ')
 
 print '   '
 
